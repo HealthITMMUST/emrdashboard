@@ -126,7 +126,7 @@ const DiagnosesWaffleChart = ({ className, ...rest }) => {
           height={400}
           position="relative"
         > */}
-                {!loading ? <LineChart data={data} selector={selector} size={[800, 200]} /> : <CircularProgress />}
+                {!loading ? <WaffleChart data={data} selector={selector} size={[800, 200]} /> : <CircularProgress />}
                 {/* </Box> */}
             </CardContent>
             <Divider />

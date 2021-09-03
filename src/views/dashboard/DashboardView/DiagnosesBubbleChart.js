@@ -36,9 +36,8 @@ const DiagnosesBarChart = ({ className, ...rest }) => {
 
     console.log(selector)
     React.useEffect(() => {
-      // let apiUrl = process.env.API_URL+ selector + '.json';
-      let apiUrl = 'https://raw.githubusercontent.com/adityanz/healthcare-dashboard/master/src/data/total_dist/' + selector + '.json';
-        fetch(apiUrl)
+      let apiUrl = selector + '.json';
+       fetch(apiUrl)
             .then((response) => response.json())
             .then(result => {
                 setData(result);
