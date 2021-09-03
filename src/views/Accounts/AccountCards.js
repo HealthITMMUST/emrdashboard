@@ -174,7 +174,7 @@ const AccountCards = props => {
                 alignItems: "center"
               }}
             >
-              <ArrowDownwardIcon sx={{ color: red[900] }} />
+              {/* <ArrowDownwardIcon sx={{ color: red[900] }} /> */}
               <Typography
                 sx={{
                   color: red[900],

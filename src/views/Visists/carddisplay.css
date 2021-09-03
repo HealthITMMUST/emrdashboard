@@ -13,7 +13,13 @@ body {
     overflow: hidden;
 
   }
-
+  .card_heading{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card_heading_two{
+    font-weight: bold;
+  }
   .card .top {
     display: inline-flex;
     width: 100%;
