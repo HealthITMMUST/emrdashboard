@@ -102,7 +102,7 @@ const AccountCharts = props => {
               Last 7 days
             </Button>
           }
-          title="Latest Sales"
+          title="test"
         />
         <Divider />
         <CardContent>
@@ -129,7 +129,7 @@ const AccountCharts = props => {
             size="small"
             variant="text"
           >
-            Overview
+          
           </Button>
         </Box>
       </Card>

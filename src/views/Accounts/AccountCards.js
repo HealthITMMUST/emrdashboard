@@ -38,7 +38,7 @@ const AccountCards = props => {
                   BUDGET
                 </Typography>
                 <Typography color="textPrimary" variant="h3">
-                  $24,000
+                  240,000
                 </Typography>
               </Grid>
               <Grid item>
@@ -68,7 +68,7 @@ const AccountCards = props => {
                 }}
                 variant="body2"
               >
-                12%
+                2%
               </Typography>
               <Typography color="textSecondary" variant="caption">
                 Since last month
@@ -91,7 +91,7 @@ const AccountCards = props => {
             gutterBottom
             variant="h6"
           >
-            TOTAL CUSTOMERS
+            TOTAL PATIENTS
           </Typography>
           <Typography
             color="textPrimary"
@@ -127,7 +127,7 @@ const AccountCards = props => {
             mr: 1
           }}
         >
-          16%
+          8%
         </Typography>
         <Typography
           color="textSecondary"
@@ -149,10 +149,10 @@ const AccountCards = props => {
             >
               <Grid item>
                 <Typography color="textSecondary" gutterBottom variant="h6">
-                  BUDGET
+                EXPENSES INCURRED
                 </Typography>
                 <Typography color="textPrimary" variant="h3">
-                  $24,000
+                  100,000
                 </Typography>
               </Grid>
               <Grid item>

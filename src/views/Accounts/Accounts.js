@@ -4,6 +4,7 @@ import { colors } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import AccountCharts from "./AccountCharts";
 import { Box, Container, Grid } from "@material-ui/core";
+import OpdvsIpd from "../Visists/OpdvsIpd"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,12 +29,15 @@ const Accounts = () => {
 
   return (
     <>
-      <div className={classes.title}>Accounts</div>
+      <div className={classes.title}></div>
       <div className={classes.root}>
         <AccountCards />
       </div>
       <div className={classes.chartui}>
         <AccountCharts />
+      </div>
+      <div>
+     
       </div>
       
     </>

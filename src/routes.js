@@ -23,14 +23,15 @@ const routes = [
     children: [
       // { path: '/', element: <HomeView /> },
       { path: 'dashboard', element: <DashboardView /> },
-      { path: 'pharmacy', element: <Pharmacy /> },
       { path: 'accounts', element: <Accounts /> },
+      { path: 'visits', element: <Visits /> },
+      { path: 'pharmacy', element: <Pharmacy /> },
       { path: 'inventory', element: <Inventory /> },
       { path: 'laboratory', element: <Laboratory /> },
       { path: 'maternity', element: <Maternity /> },
       { path: 'mchclinic', element: <Mchclinic /> },
       { path: 'mchstores', element: <MchStore /> },
-      { path: 'visits', element: <Visits /> }
+     
     ]
   }
 ];

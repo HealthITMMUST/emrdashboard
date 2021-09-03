@@ -81,7 +81,7 @@ const DiagnosesWaffleChart = ({ className, ...rest }) => {
     let [selector, setSelector] = React.useState(0);
 
     React.useEffect(() => {
-        let apiUrl = '';
+        let apiUrl = 'https://raw.githubusercontent.com/adityanz/healthcare-dashboard/master/src/data/substance_abuse.json';
         fetch(apiUrl)
             .then((response) => response.json())
             .then(result => {
@@ -121,6 +121,11 @@ const DiagnosesWaffleChart = ({ className, ...rest }) => {
             />
             <Divider />
             <CardContent id={"wc"}>
+                {/* <Box
+          id={"gbc"}
+          height={400}
+          position="relative"
+        > */}
                 {!loading ? <WaffleChart data={data} selector={selector} size={[800, 200]} /> : <CircularProgress />}
                 {/* </Box> */}
             </CardContent>

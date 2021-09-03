@@ -73,7 +73,7 @@ const DiagnosesScatterPlot = ({ className, ...rest }) => {
           height={400}
           position="relative"
         > */}
-                {!loading ? <TreeMap data={data} size={[450, 500]} /> : <CircularProgress />}
+                {!loading ? <TreeMap data={data} size={[1000, 500]} /> : <CircularProgress />}
                 {/* </Box> */}
             </CardContent>
             <Divider />
